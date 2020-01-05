@@ -6,6 +6,8 @@ baseurl: ""
 url: "" 
 facebook_username:  Find Your Event
 
+destination: docs
+
 # Build settings
 plugins:
   - jekyll-feed
