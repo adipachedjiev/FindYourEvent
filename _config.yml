@@ -1,0 +1,24 @@
+
+title: FindYourEvent
+email: Find_Your_Event@example.com
+description: Find the best events in the country and let us organize your attendance.
+baseurl: "" 
+url: "" 
+facebook_username:  Find Your Event
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
