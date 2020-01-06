@@ -1,0 +1,19 @@
+.events .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.events .event-banner{
+    flex: 0 0 30%;
+    background-color: #eee;
+}
+
+.events img{
+    width: 100%;
+    height: auto;
+}
+
+.events .event-banner {
+
+}

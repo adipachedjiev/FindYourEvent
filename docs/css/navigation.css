@@ -1,0 +1,29 @@
+.nav{
+    margin-left: auto;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li{
+    display: block;
+}
+
+.nav a{
+    
+    display: block;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    background: #eee;
+    color: #333;
+    border-radius: 0.2em;
+    text-decoration: none;
+}
+
+ .nav a:hover{
+     background: #090;
+     color: #fff;
+ }
