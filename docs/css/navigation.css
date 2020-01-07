@@ -21,9 +21,10 @@
     color: #333;
     border-radius: 0.2em;
     text-decoration: none;
+    transition: background-color ease 0.3s ;
 }
 
  .nav a:hover{
-     background: #090;
+     background-color: #090;
      color: #fff;
  }

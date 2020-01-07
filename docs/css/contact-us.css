@@ -1,0 +1,54 @@
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us .problem,
+.contact-us .suggestions{
+    flex: 0 1 50%;
+    padding: 1em;
+}
+
+.contact-us section{
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 0.5em;
+    height: 35em;
+    padding: 1em 1.5em;
+}
+
+.contact-us .problem label,
+.contact-us .suggestions label {
+    display: block;
+    padding-top: 0.5em;
+}
+
+.contact-us .submit{
+    padding: 0.5em 2em ;
+    background-color: #ccc;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.5em;
+    transition: background-color ease 0.3s ;
+}
+
+.contact-us .submit:hover{
+    background-color: #090;
+    color: #fff;
+}
+
+.contact-us input[type=text],
+.contact-us input[type=date],
+.contact-us textarea {
+    padding:0.5em; 
+    border:2px solid #ccc; 
+    border-radius: 0.4em;
+    outline:none;
+}
+
+.contact-us input[type=text]:focus,
+.contact-us input[type=date]:focus,
+.contact-us textarea:focus {
+    border-color:#333;
+}
+

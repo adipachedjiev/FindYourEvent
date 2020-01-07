@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Contact us</title>
 </head>
 <body>
@@ -33,7 +34,34 @@
            
             <div class="site-wrapper">
 
-                <h1>CONTACT US </h1>
+                <div class="contact-us">
+    <div class="problem">
+        <section>
+            <p>Are you experiencing any problems ? Feel free to let us know.</p> 
+
+            <label class="problem-label" for="problem-ta">Tell us about your problem</label>
+            <textarea name="problem-ta"  cols="40" rows="7"></textarea>
+
+            <input type="submit" value="Send" class="submit">
+        </section>
+    </div>
+
+    <div class="suggestions">
+        <section>
+            <p>Didn't find the event you are looking for. Tell us about it and you may find it here in the near future.</p>   
+            <label for="event-name">Name</label>
+            <input type="text" name="event-name">
+
+            <label for="event-date">Date</label>
+            <input type="date" name="event-date">
+
+            <label class="problem-label" for="problem-ta">Tell us more about it</label>
+            <textarea name="problem-ta" id="problem-ta" cols="40" rows="7"></textarea>
+
+            <input type="submit" value="Send" class="submit">
+        </section>
+    </div>
+</div>
             </div>
         </main>
 
@@ -41,7 +69,7 @@
 
             <div class="site-wrapper">
 
-                <p>all rights reserved &copy;</p>
+                <p>FindYourEvent All rights reserved &copy;</p>
                 <p>Find us on facebook: Find Your Event</p>
             </div>
         </footer>
