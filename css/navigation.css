@@ -2,6 +2,16 @@
     margin-left: auto;
 }
 
+.events .main-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.events .main-nav input{
+    margin-left: auto;
+}
+
 .nav ul{
     display: flex;
     justify-content: space-between;
@@ -25,6 +35,6 @@
 }
 
  .nav a:hover{
-     background-color: #090;
+     background-color: var(--main-element-color,#090);
      color: #fff;
  }

@@ -1,11 +1,11 @@
 .contact-us{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contact-us .problem,
 .contact-us .suggestions{
-    flex: 0 1 50%;
+    flex: 0 1 45%;
     padding: 1em;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .contact-us .submit:hover{
-    background-color: #090;
+    background-color: var(--main-element-background,#090);
     color: #fff;
 }
 
@@ -49,6 +49,6 @@
 .contact-us input[type=text]:focus,
 .contact-us input[type=date]:focus,
 .contact-us textarea:focus {
-    border-color:#333;
+    border-color: var(--main-element-background);
 }
 

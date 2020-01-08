@@ -1,0 +1,57 @@
+.login{
+    padding: 1em 3em;
+    margin-bottom: 4em;
+}
+
+.login label,
+.login input{
+    display: block;
+}
+
+.login .title{
+    padding: 2em 0.5em;
+    font-size: 1.6em;
+    color: var(--main-element-color, #00f);
+    text-align: center;
+}
+
+.login label,
+.login .f-pass a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.login input +  label{
+    padding-top: 1em;
+}
+
+.login .input{
+    padding: 0.5em 1em;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    outline:none;
+}
+
+.login .f-pass{
+    text-align: end;
+}
+
+.login .submit{
+    display: block;
+    margin: 1em auto 0 auto;
+    padding: 0.5em 1.5em;
+    border: none;
+    border-radius: 1em;
+    background-color: #ccc;
+    cursor:pointer;
+    transition: background-color ease 0.3s ;
+}
+
+.login .submit:hover{
+    background-color: var(--main-element-background,#090);
+    color: #fff;
+}
