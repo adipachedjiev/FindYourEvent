@@ -1,5 +1,1 @@
-.home-page h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: var(--main-element-color, #090);
-}
+.home-page h1{font-family:'Roboto',sans-serif;font-weight:400;color:var(--main-element-color, #090)}
